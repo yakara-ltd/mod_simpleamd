@@ -6,8 +6,8 @@ License: MPL 1.1
 Group: System Environment/Libraries
 URL: https://github.com/yakara-ltd/mod_simpleamd
 Source: mod_simpleamd.tar.gz
-Requires: freeswitch = %{version}
-BuildRequires: pkgconfig autoconf automake libtool freeswitch-devel = %{version} simpleamd-devel
+Requires: freeswitch >= %{version}
+BuildRequires: pkgconfig autoconf automake libtool freeswitch-devel >= %{version} simpleamd-devel
 
 %description
 The mod_simpleamd package contains a module for FreeSWITCH to provide answering machine detection
