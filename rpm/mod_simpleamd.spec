@@ -4,7 +4,7 @@ Version: 1.4.19
 Release: 1%{?dist}
 License: MPL 1.1
 Group: System Environment/Libraries
-URL: https://github.com/crienzo/mod_simpleamd
+URL: https://github.com/yakara-ltd/mod_simpleamd
 Source: mod_simpleamd.tar.gz
 Requires: freeswitch = %{version}
 BuildRequires: pkgconfig autoconf automake libtool freeswitch-devel = %{version} simpleamd-devel
